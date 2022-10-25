@@ -11,8 +11,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--primary);
-    background-color: var(--light);
     line-height: 1.5;
 }
 
@@ -23,13 +21,11 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 header h1 {
-    color: var(--tertiary);
-    background-color: var(--secondary);
+
     padding: 5px 1% 5px 6%;
     margin: 0;
     font-size: 4vw;
@@ -172,3 +168,40 @@ footer{
     height: auto;
     text-align: center;
 }
+
+@media only screen and (min-width: 600px) {
+   header h1{
+    font-size: small;
+    margin-right: 20px;
+   }
+
+   .follow{
+    font-size: 1vw;
+    margin-left: 250px;
+   }
+
+   .hero-banner h2{
+        margin-right: 130px;
+   }
+
+   .first-text{
+    font-size: 8px;
+    
+   }
+
+   .second-text{
+    font-size: 8px;
+   }
+
+   .flex-item{
+    max-width: 50%;
+    background-color: #1B1B1E;
+   }
+   .flex-container{
+    background-color: #1B1B1E;
+   }
+
+   body{
+    margin:10px
+   }
+  }
