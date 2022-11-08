@@ -301,3 +301,8 @@ footer {
 .dark-mode .interview-2:hover{
     color:gray;
 }
+
+.dark-mode .hero-banner{
+    background-color:#FBFFFE;
+    color:#1B1B1E;
+ }
